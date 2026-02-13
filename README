@@ -1,0 +1,69 @@
+# 🛒 Inventory Management System – Java (Academic Project)
+
+**Student:** Hanna Jineth Contreras Salinas  
+**Course:** Object-Oriented Programming – IUDigital de Antioquia  
+
+## 🎯 Project Objective
+
+The objective of this project is to develop a console-based inventory management system using Java and Object-Oriented Programming (OOP) principles.
+
+The system allows the user to:
+
+- Register products
+- Display all registered products
+- Search products by code
+- Calculate the total inventory value
+- Delete products by code
+
+## 🧩 Technologies and Concepts
+
+- Java
+- Object-Oriented Programming (OOP)
+- Classes and Objects
+- ArrayList (dynamic data structure)
+- Encapsulation and methods
+- Console-based UI
+- Exception handling (try-catch)
+
+## 📂 Project Structure
+inventory-java-project/
+├── Producto.java
+├── InventarioTienda.java
+└── README.md
+
+
+
+## 🚀 How to Run
+
+
+1. Compile the files:
+```bash
+javac Producto.java InventarioTienda.java
+
+Run the program:
+
+java InventarioTienda
+
+##  🧪 Features Implemented
+
+Product registration with code, name, price, quantity and category
+
+List all products in table format
+
+Search product by code
+
+Calculate total inventory value
+
+Delete product by code
+
+Input validation with error handling
+
+##   📌 Future Improvements
+
+GUI version (JavaFX or Swing)
+
+Database integration (MySQL)
+
+CRUD persistence
+
+Export reports
