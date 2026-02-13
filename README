@@ -1,69 +1,114 @@
-# 🛒 Inventory Management System – Java (Academic Project)
+# 🛒 Sistema de Gestión de Inventario – Java (Proyecto Académico)
 
-**Student:** Hanna Jineth Contreras Salinas  
-**Course:** Object-Oriented Programming – IUDigital de Antioquia  
+**Estudiante:** Hanna Jineth Contreras Salinas  
+**Curso:** Programación Orientada a Objetos – IUDigital de Antioquia  
+**Período Académico:** 2024-2025
 
-## 🎯 Project Objective
+---
 
-The objective of this project is to develop a console-based inventory management system using Java and Object-Oriented Programming (OOP) principles.
+## 🎯 Objetivo del Proyecto
 
-The system allows the user to:
+El objetivo de este proyecto es desarrollar un sistema de gestión de inventario basado en consola utilizando Java y los principios de Programación Orientada a Objetos (POO).
 
-- Register products
-- Display all registered products
-- Search products by code
-- Calculate the total inventory value
-- Delete products by code
+El sistema permite al usuario realizar las siguientes operaciones:
 
-## 🧩 Technologies and Concepts
+- ✅ Registrar productos
+- ✅ Visualizar todos los productos registrados
+- ✅ Buscar productos por código
+- ✅ Calcular el valor total del inventario
+- ✅ Eliminar productos por código
 
-- Java
-- Object-Oriented Programming (OOP)
-- Classes and Objects
-- ArrayList (dynamic data structure)
-- Encapsulation and methods
-- Console-based UI
-- Exception handling (try-catch)
+---
 
-## 📂 Project Structure
+## 🧩 Tecnologías y Conceptos Implementados
+
+- **Lenguaje:** Java
+- **Paradigma:** Programación Orientada a Objetos (POO)
+- **Estructuras de datos:** ArrayList (estructura dinámica)
+- **Conceptos aplicados:**
+  - Clases y Objetos
+  - Encapsulamiento y métodos
+  - Manejo de excepciones (try-catch)
+  - Interfaz de usuario basada en consola
+
+---
+
+## 📂 Estructura del Proyecto
+```
 inventory-java-project/
 ├── Producto.java
 ├── InventarioTienda.java
 └── README.md
+```
 
+---
 
+## 🚀 Cómo Ejecutar el Proyecto
 
-## 🚀 How to Run
-
-
-1. Compile the files:
+### Paso 1: Compilar los archivos
 ```bash
 javac Producto.java InventarioTienda.java
+```
 
-Run the program:
-
+### Paso 2: Ejecutar el programa
+```bash
 java InventarioTienda
+```
 
-##  🧪 Features Implemented
+---
 
-Product registration with code, name, price, quantity and category
+## 🧪 Funcionalidades Implementadas
 
-List all products in table format
+| Funcionalidad | Descripción |
+|---------------|-------------|
+| 📝 **Registro de productos** | Permite ingresar código, nombre, precio, cantidad y categoría |
+| 📋 **Listado de productos** | Muestra todos los productos en formato de tabla |
+| 🔍 **Búsqueda por código** | Encuentra productos específicos mediante su código único |
+| 💰 **Cálculo de valor total** | Calcula automáticamente el valor total del inventario |
+| 🗑️ **Eliminación de productos** | Permite eliminar productos por código |
+| ⚠️ **Validación de entradas** | Manejo de errores y excepciones para entradas inválidas |
 
-Search product by code
+---
 
-Calculate total inventory value
+## 📌 Mejoras Futuras
 
-Delete product by code
+- 🖥️ Implementar interfaz gráfica (JavaFX o Swing)
+- 💾 Integración con base de datos (MySQL o PostgreSQL)
+- 📊 Generación de reportes en PDF
+- 🔐 Sistema de autenticación de usuarios
+- 📱 Versión web con Spring Boot
 
-Input validation with error handling
+---
 
-##   📌 Future Improvements
+## 📚 Aprendizajes Obtenidos
 
-GUI version (JavaFX or Swing)
+Durante el desarrollo de este proyecto, se fortalecieron conocimientos en:
 
-Database integration (MySQL)
+- Diseño de clases y relaciones entre objetos
+- Manipulación de colecciones en Java
+- Validación y manejo robusto de errores
+- Buenas prácticas de programación y documentación de código
+- Lógica de negocio aplicada a casos reales
 
-CRUD persistence
+---
 
-Export reports
+## 👩‍💻 Autora
+
+**Hanna Jineth Contreras Salinas**  
+Estudiante de Ingeniería de Software y Datos  
+Institución Universitaria Digital de Antioquia  
+
+📧 salinashanna123@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/hannacontreras/)  
+💻 [GitHub](https://github.com/HannaSalinas)
+
+---
+
+## 📄 Licencia
+
+Este proyecto fue desarrollado con fines académicos y educativos.
+
+---
+
+*Proyecto desarrollado como parte del curso de Programación Orientada a Objetos*  
+*IUDigital de Antioquia © 2024-2025*
